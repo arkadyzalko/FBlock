@@ -8,6 +8,7 @@
 		{
 			"matches": ["*://www.facebook.com/*"],
 			"js": ["js/fblock-inject.js"],
+			"css": ["css/fblock-inject.css"],
 			"all_frames": true
 		}
 	],

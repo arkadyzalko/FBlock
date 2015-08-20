@@ -1,0 +1,26 @@
+[data-reactid*="100000394479711"] {
+	border: 4px solid red;
+	display: none !important;
+}
+[data-hovercard*="100000394479711"] {
+	border: 4px solid green;
+	display: none !important;
+}
+
+[data-ft*="100000394479711"] {
+	border: 4px solid blue;
+	display: none !important;
+}
+[href*="100000394479711"] {
+	display: none !important;
+	height: 0px;
+}
+[href*="pedro.de.goes"] {
+	border: 4px solid pink;
+	display: none !important; 
+	height: 0px;
+}
+li:has([href*="100000394479711"]) {
+	display: none !important; 
+	height: 0px;
+}
