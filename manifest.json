@@ -1,0 +1,27 @@
+{
+	"manifest_version": 2,
+
+	"name": "FBlock",
+	"description": "Blocking friends in Facebook - FBlock Chrome Extension",
+	"version": "0.1",
+	"content_scripts": [
+		{
+			"matches": ["*://www.facebook.com/*"],
+			"js": ["js/fblock-inject.js"],
+			"all_frames": true
+		}
+	],
+	
+	"browser_action": {
+		"default_icon": "images/icon16.png",
+		"default_popup": "fblock.html"
+	},
+	"icons": { 
+		"16": "images/icon16.png",
+		"48": "images/icon48.png",
+		"128": "images/icon128.png" 
+	},
+	"permissions": [
+		"activeTab"
+	]
+}

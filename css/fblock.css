@@ -1,0 +1,74 @@
+html {
+	background-color: #425F9C;
+	border: 0;
+	border-bottom: 1px solid #133783;
+	box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .52);
+}
+h1 {
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	border-right: none;
+	font-family: helvetica, arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	text-shadow: 0 -1px rgba(0, 0, 0, .5);
+}
+input#name{
+	padding: 5px;
+	margin-bottom: 10px;
+	padding-right: 30px;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 14px;
+	border-radius: 3px;
+	border: none;
+}
+input:focus {
+	outline-width: 0;
+	outline-color: transparent;
+}
+#search {
+	position: relative;
+}
+#search button {
+	background-image: url(icons.png);
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: 0 -1322px;
+	background-color: transparent;
+	border: none;
+	height: 15px;
+	right: 3px;
+	top: 4px;
+	width: 22px;
+	position: absolute;
+}
+button#submit {
+	width: 100%;
+	background-color: #f6f7f8;
+	background-image: url(button.png);
+	background-repeat: repeat-x;
+	background-position: 0px -21px;
+	border: 1px solid;
+	border-radius: 2px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+	font-family: helvetica, arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	font-weight: bold;
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+	border-color: #cccccc #c5c6c8 #b6b7b9;
+	color: #4e5665;
+	text-shadow: 0 1px 0 #fff;
+	zoom: 1;
+}
+button#submit:active {
+	background-position: 0 -178px;
+}
+button#submit:focus {
+	outline-width: 0;
+	outline-color: transparent;
+}
+button>span {
+	font-size: 12px;
+}
